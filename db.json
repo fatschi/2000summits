@@ -1,5 +1,5 @@
 {
-activities: [{
- foo: "bar"
+"activities": [{
+ "foo": "bar"
 }]
 }
