@@ -196,7 +196,7 @@
             // hide login link
             $(".loginLink").hide();
             // fetch token promise
-            aPromises.push(fetch('https://fatschi.usw1.kubesail.io/tokenexchange', {
+            aPromises.push(fetch('https://strava-api-proxy.herokuapp.com/tokenexchange', {
                 method: 'POST',
                 headers: {
                     'Accept': 'application/json',
